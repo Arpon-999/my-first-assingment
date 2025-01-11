@@ -36,6 +36,10 @@ nav .defualt-btn .btn{
     padding: 13px 22px;
     border-radius: 5px;
 }
+nav .defualt-btn .btn:hover{
+    background-color: olive;
+    transition: .4s;
+}
 /* banner */
 .banner{
     display: flex;
@@ -66,6 +70,10 @@ nav .defualt-btn .btn{
     padding: 15px 25px;
     border: none;
     border-radius: 10px;
+}
+.banner-btn .btn-banner:hover{
+    background-color: olive;
+    transition: .4s;
 }
 /* about section */
 .about-container{
@@ -98,12 +106,23 @@ nav .defualt-btn .btn{
     border-radius: 5px;
     margin-top: 25px;
 }
+.future-container .f-btm:hover{
+    background-color: olive;
+    transition: .4s;
+}
 /* info */
 .info{
     background-color: gray;
     color: white;
     padding: 20px;
     border-radius: 20px;
+}
+.info img{
+    position: absolute;
+}
+.info img::after{
+    content: "";
+    position: relative;
 }
 .opinion{
     
@@ -129,6 +148,10 @@ table tr th{
     padding: 10px 10px;
     border-radius: 5px;
 }
+.table-btn:hover{
+    background-color: olive;
+    transition: .4s;
+}
 /* satellite-section */
 .satellite-section{
     display: flex;
@@ -151,6 +174,10 @@ table tr th{
     border: none;
     border-radius: 5px;
 }
+.satelite-btn:hover{
+    background-color: olive;
+    transition: .4s;
+}
 /* donate-section */
 .donate-section{
     margin-top: 100px;
@@ -168,6 +195,10 @@ table tr th{
     color: white;
     background-color: gray;
     border-radius: 10px;
+}
+.donate-section ul li:hover{
+    background-color: olive;
+    transition: .4s;
 }
 .donate-input{
     text-align: center;
@@ -190,7 +221,7 @@ table tr th{
     border-radius: 8px;
 }
 .donate-btn .d-btn:hover{
-    background-color: #C6E4D6;
+    background-color: olive;
     transition: .4s;
 }
 /* newslater-section */
@@ -214,6 +245,11 @@ table tr th{
     border: none;
     border-radius: 5px;
 }
+.input-sec .input-sec-btn:hover{
+    background-color: olive;
+    transition: .4s;
+}
+
 
 
 .footer-img{
